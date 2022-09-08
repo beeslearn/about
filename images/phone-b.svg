@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="#40c057"
+   viewBox="0 0 40 40"
+   width="40"
+   height="40"
+   version="1.1"
+   id="svg3656"
+   sodipodi:docname="phone-big.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3660" />
+  <sodipodi:namedview
+     id="namedview3658"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="10.66"
+     inkscape:cx="19.606004"
+     inkscape:cy="21.153846"
+     inkscape:window-width="1366"
+     inkscape:window-height="699"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3656" />
+  <path
+     d="M 39.820045,31.884083 39.620952,31.284085 C 39.149408,29.882272 37.603749,28.420259 36.18392,28.035074 l -5.255137,-1.435853 c -1.425109,-0.387786 -3.457986,0.133652 -4.500666,1.176435 l -1.90185,1.902285 C 17.614226,27.809782 12.194111,22.388586 10.328892,15.476622 l 1.901936,-1.902286 c 1.04268,-1.042871 1.563933,-3.073439 1.176219,-4.4988108 L 11.974057,3.8168225 C 11.586343,2.3940489 10.121917,0.8481914 8.7230441,0.38175899 L 8.1231587,0.18001523 C 6.7216039,-0.28641718 4.7227611,0.18534955 3.6801664,1.2280826 L 0.83514231,4.0762302 C 0.32688094,4.5819018 0.00204092,6.0282344 0.00204092,6.033518 -0.09745243,15.067864 3.444353,23.772027 9.8337081,30.162641 c 6.3736829,6.374852 15.0435529,9.912124 24.0500809,9.83616 0.0472,0 1.535182,-0.319704 2.043357,-0.825375 l 2.845024,-2.845545 c 1.042596,-1.042786 1.514139,-3.041996 1.047875,-4.443809 z"
+     id="path4438"
+     style="fill:#000000;stroke-width:0.0838379" />
+</svg>
