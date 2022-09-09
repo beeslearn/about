@@ -1,16 +1,17 @@
 *{
   margin: 0%;
   padding: 0%;
-  box-sizing: border-box;
   font-family: sans-serif;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 body{
-  background-color: rgb(228, 217, 217);
+  background-color: beige;
+  background-image: url('../images/circuit-board.svg');
 }
-
+/*------------------- navegacion-----------------------------*/
 .mainmenu{
   width: 100%;
   height: 60px;
@@ -59,39 +60,85 @@ a.active:hover{
 #check{
   display: none;
 }
+/*------------------- barner      ----------------------*/
 
 .barner{
-  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
   padding: 20px 10%;
   width: 100%;
 }
-
-.redes{
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
-  padding: 20px;
-  display: block;  
-  width: 100%;
-  height: auto;
-  margin: 0px 0px;
-  text-align: center;
-  color: white;
+/*-------------------vison-----------------------------*/
+.vision{
+  width: 80%;
+  padding: 40px;
+  margin: auto;
+  /*-------------------seccion 1-----------------------------*/
 }
 .contacto{
-  display: inline-block;
-  margin-right: 50px;
-  margin-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto  ;
 }
-.red{
-  display: inline-block;
+.aside{
+  flex: 50%;
+  text-align: center;
+  margin: auto;
+}
+.mainbox{
+  flex: 50%;
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.box{
+  flex: 50%;
+  padding: 0px;
+}
+.medio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.icon{
+  padding: 10px;
+}
+.texicon{
+  font-size: x-large;
+  padding-left: 0px;
+}
+/*-                      pagos                          */
+.texpago{
+  text-align: center;
+}
+.pagos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logoa{
+  padding: 10px;
+  height: 70px;
+  line-height: 70px;
+}
+.logob{ 
+  padding: 10px;
+}
+/*-                      footer                          */
+
+.eco{
+  background-color: black;
+  text-align: center;
 }
 
 .date{
   background-color: black;
-  color: white;
+  color: greenyellow;
   font-size: small;
   text-align: center;
   padding: 5px;
 }
+
+/*---------------------responsive-------------------------*/
 
 @media screen and (max-width: 600px) {
   .checkbtn{
@@ -103,7 +150,7 @@ a.active:hover{
       position: fixed;
       width: 100%;
       height: 100vh;
-      background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+      background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.94) 0.1%, rgba(0,7,128,0.94) 99.8% );
       top: 60px;
       text-align: center;
       left: -100%;
@@ -138,15 +185,15 @@ a.active:hover{
       background-color: blue;
       color: white;
   }
-
   .barner{
     margin: 0px;
   }
-  .box{
-    margin: 10px auto;
+  .texicon{
+    font-size: large;
+    padding: 5px;
   }
   .contacto{
-    display: block;
-    margin-top: 20px;
+    width: 100%;
+    flex-direction: column;
   }
 }
